@@ -32,8 +32,8 @@ Loop
 
     Mondo()
 
-    If (MinutesSince(bugrun_cooldown) > 30)
+    If (MinutesSince(bugrun_cooldown) > 60)
         BugRun()
 
-    SunflowerField()
+    RoseField()
 }
